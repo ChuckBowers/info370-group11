@@ -18,6 +18,10 @@
 
 ## Technical
 
+- Our paper will be presented in an HTML page exported using ipynb. 
+
+- The first dataset we found relevant to our question contains information on all US domestic flights in 2015 operated by 14 American airlines. The large size of the flights dataset (500MB+) could make it difficult to load and share, by filtering out the rows that have 'SEA' as the value for origin airport, we are able to reduce the size from ~5800,000 rows to ~110,000. A potential problem of our research question is our treatment of flight cancellation. In the dataset, cancelled flights have a 'CANCELLED' value of 1, and null for the actual departure/arrival time, so there is the need to differentiate between cancelled and normal flights in the calculations. The weather dataset includes daily weather information such as wind, precipitation and snowfall. Again, treatment of null values can be a challenge in this dataset. There is a large amount of null values in several columns. We will need to make trade-offs to drop unimportant columns from our analysis. In addition, airports rely on weather data available at present to make decisions about potential flight delays in the future, so a time-lagged variable might be better at predicting flight delays. 
+
 ## Works Cited
 
 - Fleurquin, Pablo et al. “Systemic delay propagation in the US airport network” Scientific reports
