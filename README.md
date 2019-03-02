@@ -6,6 +6,9 @@
 
 - The specific question we hope to answer with this data is, given a particular day at SeaTac International Airport, can we predict the average departure delay for all flights based upon the weather? Our _null hypothesis_ would be: there is no relationship between the average daily departure delay at SeaTac and the weather at SeaTac. Conversely, our _alternative hypothesis_ would be: there is a relationship between the average daily departure delay at SeaTac and the weather at SeaTac.
 
-- To estimate the average departure delay at SeaTac International Airport (SEA), two datasets 1) flight delay data at SEA and 2) weather data of SEA will be used. From [Kaggle](https://www.kaggle.com/fabiendaniel/predicting-flight-delays-tutorial/data), we acquired the 2015 flight delays and cancellations dataset. This dataset contains three tables including the list of airlines, airports and the actual flights. From [National Centers for Environmental Information (NCEI)](https://www.ncdc.noaa.gov/), we downloaded the weather data for the year of 2015 that is recorded by weather station at Seattle Tacoma International Airport (SEA).
+- To estimate the average departure delay at SeaTac International Airport (SEA), two datasets 1) flight delay data at SEA and 2) weather data of SEA will be used. From [Kaggle](https://www.kaggle.com/fabiendaniel/predicting-flight-delays-tutorial/data), we acquired the 2015 flight delays and cancellations dataset. This dataset contains three tables including the list of airlines, airports and the actual flights. From [National Centers for Environmental Information (NCEI)](https://www.ncdc.noaa.gov/), we downloaded the weather data for the year of 2015 that is recorded by weather station at Seattle Tacoma International Airport (SEA).  
+
+- We intend to employ linear multivariate regression on modeling. It is unlikely to use a univariate regression unless there is a single weather factor that exerts an extremely significant effect on flight delays.
+On the side of machine learning, we expect to use cross-validation and grid search to evaluate the flight delay.  
 
 ## Technical Description
