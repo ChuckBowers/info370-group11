@@ -4,7 +4,7 @@
 
 - For our final project, we are trying to answer what effect, if any, the weather has on outgoing flights. More specifically we are interested in the weather in Seattle and its effect on flights leaving SeaTac. We believe this to be an important topic as thousands of people fly through Seattle everyday, and as all of us as residents know Seattle's weather can be both variable and rainy. If we were be able to inform either the populace of Seattle or the organization of SeaTac with this information, the hope would be that individuals would be more prepared for their journeys, and that SeaTac can react accordingly.
 
-- Flight delays can have costly consequences. It is estimated that in the U.S. alone, flight delays have a 40.7 billion dollar impact. Additionally, all of that time planes spend on the tarmac results in excess fuel being used and more emissions being released (Fleurquin). Flight delays also result in significant disruptions to aviation safety and the decreased traffic results in losses for the airlines (Gao, 68). Flight delays also cause passengers to prefer other airlines if they experience delays with a certain carrier (Tae-Hwee Lee, 277). Causes of flight delays can range from the unpreventable, severe weather (Gao, 68), to the preventable, crew mishaps and flight order rotation (Fleurquin). 
+- Flight delays can have costly consequences. It is estimated that in the U.S. alone, flight delays have a 40.7 billion dollar impact. Additionally, all of that time planes spend on the tarmac results in excess fuel being used and more emissions being released (Fleurquin). Flight delays also result in significant disruptions to aviation safety and the decreased traffic results in losses for the airlines (Gao, 68). Flight delays also cause passengers to prefer other airlines if they experience delays with a certain carrier (Tae-Hwee Lee, 277). Causes of flight delays can range from the unpreventable, severe weather (Gao, 68), to the preventable, crew mishaps and flight order rotation (Fleurquin).
 
 - The specific question we hope to answer with this data is, given a particular day at SeaTac International Airport, can we predict the average departure delay for all flights based upon the weather? Our _null hypothesis_ would be: there is no relationship between the average daily departure delay at SeaTac and the weather at SeaTac. Conversely, our _alternative hypothesis_ would be: there is a relationship between the average daily departure delay at SeaTac and the weather at SeaTac.
 
@@ -12,15 +12,19 @@
 
 - We intend to employ linear multivariate regression on modeling. It is unlikely to use a univariate regression unless there is a single weather factor that exerts an extremely significant effect on flight delays. On the side of machine learning, we expect to use cross-validation and grid search to evaluate the flight delay.  
 
-## Technical 
+- There are a couple of audience groups for our project. For example, the Department of Transportation (DOT) and the airlines may issue prior delay notice and operate accordingly on the given estimated information. Moreover, There are also airport rating agencies around which would use the data for ratings on airport efficiency of responsiveness on weather conditions. However, the primary audience for our project is Seattle-based travelers. Since we are only evaluating flights departing from Seattle Tacoma International Airport, all travelers through SEA, especially frequent flyers based in the Greater Seattle Area will benefit from our project.  
+
+- Our resource serves all travelers who travel through Seattle Tacoma International Airport (SEA), especially those based in Seattle. Before travelers heading to the airport or before passengers with connecting flight landing, with the resource we provide, they may be able to have a rough prediction on how long their flights will be delayed. Travelers could also modify the schedule of subsequent activities.  
+
+## Technical
 
 ## Works Cited
 
-- Fleurquin, Pablo et al. “Systemic delay propagation in the US airport network” Scientific reports 
+- Fleurquin, Pablo et al. “Systemic delay propagation in the US airport network” Scientific reports
     vol. 3 (2013): 1159.
 
-- Gao, Mingang. “Models Responding to Large-Area Flight Delays in Aviation Production Engineering.” 
+- Gao, Mingang. “Models Responding to Large-Area Flight Delays in Aviation Production Engineering.”
     NeuroImage, Academic Press, 2 June 2012, www.sciencedirect.com/science/article/pii/S2211381912000549.
 
-- Tae-Hwee Lee, Taylor. “Impact of Flight Departure Delay on Airline Choice Behavior.” NeuroImage, 
+- Tae-Hwee Lee, Taylor. “Impact of Flight Departure Delay on Airline Choice Behavior.” NeuroImage,
     Academic Press, 6 Feb. 2018, www.sciencedirect.com/science/article/pii/S2092521217300676.
